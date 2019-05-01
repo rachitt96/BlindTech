@@ -42,7 +42,7 @@
 <body>
 	<h1 class = "hTag">Form For Blind People</h1>
 	
-	<form action = "/blindtech/registration" onsubmit="return(validate())">
+	<form action = "/blindtech/registrationUsingJSON/" onsubmit="return(validate())">
 		<div class = "cen">
 			<input type = "text" name="fn" placeholder="enter first name" id = "fn" class = "txt" onmouseover="responsiveVoice.speak('first name');" onfocus="responsiveVoice.speak('first name');">
 		</div>

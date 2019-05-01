@@ -27,6 +27,11 @@ public class Register
 		this.hobby = hobby;
 		MobileNumber = mobileNumber;
 	}
+	
+	public Register()
+	{
+		
+	}
 
 	public String getFirstName() 
 	{
